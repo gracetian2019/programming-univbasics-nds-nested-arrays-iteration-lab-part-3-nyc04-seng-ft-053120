@@ -8,8 +8,8 @@ def join_nested_strings(src)
     while element_index < src[row_index].count do
       final<< src[row_index][element_index] if src[row_index][element_index].to_s == src[row_index][element_index]
       element_index += 1 
-      return final.join(" ")
   end 
     row_index += 1
+    return final.join(" ")
  end
 end 
